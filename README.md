@@ -1,5 +1,5 @@
 # ChatBot
-Simple chatbot UI and dinamic HTML. 
+Simple chat-bot functionality and dynamic HTML. 
 
 ### index.html
 - Barebone of the HTML(2 stylesheets used for the entire doc)
