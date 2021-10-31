@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ChatBot</title>
+     <!-- ikone-->
+   <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css"> 
+
+</head>
+<body>
+<!-- center text -->
+
+<div id="center-text">
+  <h2>EDIT - ChatBot</h2>
+  <p>Klikni na donji krug kako bi započeli razgovor! </p>
+</div>
+
+<!-- glavni body -->
+<div id="body">
+
+  <div id="chat-circle" class="btn btn-raised">
+    <div id="chat-overlay"></div>
+  </div>
+
+  <div class="chat-box">
+    <div class="chat-box-header">ChatBot
+      <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay">
+      </div>
+      <div class="chat-logs">
+
+      </div>
+      <!--input korisnika -->
+    </div>
+    <div class="chat-input">
+      <form>
+        <input type="text" id="unos" placeholder="Pošalji poruku.." />
+        <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+      </form>
+
+    </div>
+  </div>
+
+</div>
+<!-- jquery bootstrap-ov -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script  src="script.js"></script>
+
+</body>
+</html>
