@@ -1,18 +1,19 @@
-# ChatBot
-Simple chat-bot functionality and dynamic HTML. 
+# Introduction
+
+- A very simple ChatBot which the only functionality is to repeat your input.
+
+## Scope of functionality
 
 ### index.html
-- Barebone of the HTML(2 stylesheets used for the entire doc)
-- Div's of the whole pop-up are here
-- Chatbot's response is generated in the script.js
 
-### style.css
-- minimalistic CSS
+- Barebone(2 stylesheets, 2 JS files connected)
+- All fields pre-specified, are later modified in script.js
+
+#### style.css
+
+- Extremely simple CSS mainly for the chatbox of the chatbot.
 
 ### script.js
-- everything is in a local function
-- firstly checks if the msg is empty, if not procides to call generate_message with appropirate text 
 
-
-## Extra
-V1 has been uploaded, make sure all the files are in the same WDIR. Expecting more changes to the JS and minimizing CSS
+- Everything is in a callback(local) function, breaks down to 1 main function(generate_message)
+- generate_message "generates" the HTML for the "smart" response of the chatbot.
