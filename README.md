@@ -17,3 +17,8 @@
 
 - Everything is in a callback(local) function, breaks down to 1 main function(generate_message)
 - generate_message "generates" the HTML for the "smart" response of the chatbot.
+
+### index_cisto.js
+
+- For simplifying purposes, this handles the bot's response
+- exporting variable "odgovor" because that is the bot's response to script.js
