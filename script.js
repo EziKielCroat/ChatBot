@@ -1,6 +1,7 @@
+import {odgovor} from "./index_cisto.js"
+console.log(odgovor);
+
 $(function() {
-    
-  msg = $("#unos").val();
 
   let buttons = [{
           name: "Existing User",
@@ -15,27 +16,62 @@ $(function() {
   let INDEX = 0;
 
   $("#chat-submit").click(function(e) {
+    let msg = $("#unos").val();
       e.preventDefault();
-
-      console.log(msg); // check if msg is parsed
       if (msg.trim() == "") {
           return false;
       }
-      generate_message(msg, "self");
+      generate_message_main(msg, "self", odgovor);
       setTimeout(function() {
-          generate_message(msg, "user");
+          generate_message_main(msg, "user", odgovor);
       }, 1000);
 
   });
 
+function generate_message_main(msg, type, odgovor){
+    INDEX++;
+if(type == "self"){
+    let str = "";
+    str += "<div id='cm-msg-" + INDEX + "' class=\"chat-msg " + type + '">';
+    str += '          <div class="cm-msg-text">';
+    str += msg;
+    str += "          </div>";
+    str += "        </div>";
+    $(".chat-logs").append(str);
+    $("#cm-msg-" + INDEX)
+        .hide()
+        .fadeIn(300);
+        $("#unos").val("");
+    $(".chat-logs")
+        .stop()
+        .animate({
+            scrollTop: $(".chat-logs")[0].scrollHeight
+        }, 1000);
+}else{
+    let str = "";
+    str += "<div id='cm-msg-" + INDEX + "' class=\"chat-msg " + type + '">';
+    str += '          <div class="cm-msg-text">';
+    str += odgovor;
+    str += "          </div>";
+    str += "        </div>";
+    $(".chat-logs").append(str);
+    $("#cm-msg-" + INDEX)
+        .hide()
+        .fadeIn(300);
+  }
+ } 
+
+
+
+
+// redoing completely function
 
   function generate_message(msg, type) { 
-
       INDEX++;
       let str = "";
       str += "<div id='cm-msg-" + INDEX + "' class=\"chat-msg " + type + '">';
       str += '          <div class="cm-msg-text">';
-      str += msg;
+      str += odgovor;
       str += "          </div>";
       str += "        </div>";
       $(".chat-logs").append(str);
