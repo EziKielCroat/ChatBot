@@ -185,4 +185,4 @@ Project Link: [https://github.com/EziKielCroat/ChatBot](https://github.com/EziKi
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/EziKielCroat/ChatBot/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/EziKielCroat/ChatBot/master/LICENSE.txt
+[license-url]: https://github.com/EziKielCroat/ChatBot/blob/master/LICENSE.txt
