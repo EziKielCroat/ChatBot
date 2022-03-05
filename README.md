@@ -2,8 +2,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/EziKielCroat/ChatBot">
-    <img src="https://user-images.githubusercontent.com/89482125/156889955-2d22c9dc-54cb-46a5-8b8a-76fc0cc1ba47.png" alt="Logo" style="height: 200px">
-  </a>
+    <img src="https://user-images.githubusercontent.com/89482125/156893602-890fa534-8aee-40bb-8066-3121e2f31cd0.png"       alt="Logo" style="height: 200px">
+</a>
 
   <h3 align="center">ChatBot</h3>
 
@@ -22,7 +22,7 @@
 </div>
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary><b>Table of Contents</b></summary>
   <ol>
       <ul>
         <li><a href="#built-with">Built With</a></li>
@@ -47,13 +47,14 @@
 
 No large frameworks were used during the production of this ChatBot.
 
-* [VanillaJS](http://vanilla-js.com/)
-* [TensorFlow](https://www.tensorflow.org/)
-* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
-* [nltk](https://angular.io/)
-* [numpy](https://svelte.dev/)
-* [scikit_learn](https://laravel.com)
-* [colorama](https://laravel.com)
+1. [VanillaJS](http://vanilla-js.com/)
+2. [TensorFlow](https://www.tensorflow.org/)
+3. [nltk](https://www.nltk.org/)
+4. [numpy](https://numpy.org/)
+5. [scikit_learn](https://scikit-learn.org/stable/index.html)
+6. [colorama](https://pypi.org/project/colorama/)
+7. [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -90,7 +91,7 @@ Follow these easy steps in order to install and replicate the ChatBot service
 
 ## Usage
 
-You can self-host for your own service, for your company support or to automize helping users!
+You can change the learning data that the robot gets in the *intents.json* file.
 <!-- screenshots -->
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -112,9 +113,6 @@ See the [open issues](https://github.com/EziKielCroat/ChatBot/issues) for a full
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -130,16 +128,12 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
 ## Contact
 
 Your Name - [@CroatEzi](https://twitter.com/CroatEzi)
