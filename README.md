@@ -100,8 +100,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [] Add code back
-- [] Recycle old UI with Flask
+- [ ] Add code back
+- [ ] Recycle old UI with Flask
 - [ ] Re-configure Flask for localhost and tunneling
 - [ ] Look at implementing SSL for self-host(or howto's)
 - [ ] Multi-language Support
