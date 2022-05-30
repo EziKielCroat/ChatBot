@@ -1,0 +1,27 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "Hiiiiiiiiii", "Hellooooooo!", "hi!", "hey!", "hello!", "nice day isn't it?", "Good day!", "G'day!", "Whats up!", "Heeeeeeyyy!", "heeeeey!"],
+     "responses": ["Hello!", "Hi.", "Hi there", "Welcome!", "How may I help?",  "Well, hello!", "How may I assist you?", "Heey!",  "Bonjur!", "Hola!", "Bok!"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "See you!", "Cyaa", "Byeeee", "byeeeee", "see you later bro", "goooodbye!"],
+     "responses": ["See you later", "Have a nice day", "Bye!", "Come back again", "See you!", "Adios!", "Byee!", "Was very happy to help!", "Any time my friend!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "ty!", "thank youuu!", "thanks!", "thnxx", "thx", "tyyy uuu"],
+     "responses": ["No worries!", "Always here to help!", "Happy to help!", "Any time!", "My pleasure", "You're most welcome!", "Don't sweat it!", "Any time comparde!", "Yep!"]
+    },
+    {"tag": "where",
+        "patterns": ["Where are you from?", "Where are you located?", "Whats your birth country?"],
+        "responses": ["My makers are from Croatia", "I was developed in Split!", "From a very be beautiful country called Croatia!"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Jarvis", "I'm Jarvis!", "Just call me as Jarvis"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "Can you give me a hand please?", "Can you help?", "What can you do for me?", "I need some support.", "I need help.", "Can I get some support?"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "How can I support you?"]
+    }
+]
+}

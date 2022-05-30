@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Chatbot - New</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <div class="container">
+            <button id="buttonOpen" class="buttonOpen" onclick="openChat();"></button>
+
+            <div id="chat-container" class="chat-container">
+                <div class="up"> 
+                 <div class="title">Jarvis 1.0</div>
+                 <a id="close" onclick="closeChat();" class="close"></a>
+                </div>
+                <ul class="messages"></ul>
+                <div class="down">
+                 <input id="input_msg" placeholder="Type here.." />
+                 <div id="send_button" class="app_button_s" onclick="sendMessage();">Send</div>
+        </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="static/js/main.js"></script>
+</body>
+</html>
