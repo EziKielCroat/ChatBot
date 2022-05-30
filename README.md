@@ -52,9 +52,6 @@ No large frameworks were used during the production of this ChatBot.
 3. [nltk](https://www.nltk.org/)
 4. [numpy](https://numpy.org/)
 5. [scikit_learn](https://scikit-learn.org/stable/index.html)
-6. [colorama](https://pypi.org/project/colorama/)
-7. [Flask](https://flask.palletsprojects.com/en/2.0.x/)
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -84,7 +81,8 @@ Follow these easy steps in order to install and replicate the ChatBot service
    ```
 2. Install pip packages
    ```sh
-   pip install tensorflow flask nltk numpy scikit-learn colorama
+   cd backend
+   pip install -r requirements.txt
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -92,8 +90,8 @@ Follow these easy steps in order to install and replicate the ChatBot service
 ## Usage
 
 You can change the learning data that the robot gets in the *intents.json* file.
-<!-- screenshots -->
-_For more examples, please refer to the [Documentation](https://example.com)_
+
+[example](https://user-images.githubusercontent.com/89482125/170982580-55e36467-84ec-4ec7-9db4-5bccea9ae7da.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -101,30 +99,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [ ] Add code back
-- [ ] Recycle old UI with Flask
-- [ ] Re-configure Flask for localhost and tunneling
-- [ ] Look at implementing SSL for self-host(or howto's)
-- [ ] Multi-language Support
+  - [x] Redo of UI
+  - [x] Fix sckit thing
+  - [x] Undo the jquery
+  - [ ] Look at implementing SSL for self-host(or howto's)
+  - [ ] Multi-language Support
     - [ ] Chinese
     - [ ] Spanish
 
 See the [open issues](https://github.com/EziKielCroat/ChatBot/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -136,19 +119,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@CroatEzi](https://twitter.com/CroatEzi)
+[@CroatEzi](https://twitter.com/CroatEzi)
 
 Project Link: [https://github.com/EziKielCroat/ChatBot](https://github.com/EziKielCroat/ChatBot)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Acknowledgments
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [Neural Network Used](https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
